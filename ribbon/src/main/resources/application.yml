@@ -1,0 +1,10 @@
+eureka:
+  client:
+    service-url:
+     defaultZone: http://127.0.0.1:8801/eureka
+
+server:
+   port: 8802
+spring:
+  application:
+    name: ribbon-provider
